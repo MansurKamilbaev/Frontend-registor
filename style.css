@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.form_wrapper{
+    background-image: url(./image/img\ bg.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form_container{
+    width: 1076px;
+    height: 817px;
+    background-color: white;
+    border-radius: 24px;
+    margin: 0 auto;
+    position: relative;
+    padding: 72px 0;
+    text-align: center;
+}
+.close{
+    font-size: 32px;
+    color: blue;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+}
+.form_container p{
+    color:rgba(29, 29, 29, 0.35);
+    font-size: 16px;
+    line-height: 137%; /*137.5% */
+    margin-bottom: 12px;
+
+
+}
+.blue{
+    color:blue;
+}
+.form_container h1{
+    color:blue;
+    font-size: 44px;
+    line-height: 120%; /* 52.8px */
+    margin-bottom: 32px;
+}
+.form{
+    width: 358px;
+    margin: 0 auto;
+
+}
+.form label{
+    display: block;
+    text-align: left;
+    color: rgba(29, 29, 29, 0.35);
+    font-size:16px;
+    line-height: 137%;
+    margin-bottom: 16px;
+
+}
+.form input{
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    background-color:rgb(245, 245, 245);
+    border: none;
+    color:var(--placeholder-lightmode,#9D9D9D);
+    font-size: 17px;
+    line-height: 129%;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+
+}
+.form button{
+    width: 100%;
+    margin-top: 16px;
+    background-color:blue;
+    color:white;
+    font-size: 16px;
+    padding: 8px 0;
+    border:2px solid blue;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.form button:hover{
+    background-color:white;
+    color:blue;
+
+}
+.footer{
+    display:flex;
+    align-items: center;
+    width: 358px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.line{
+    height: 2px;
+    width: 90px;
+    background-color:rgb(241, 241, 241)
+}
+.footer p{
+    margin: 0;
+    padding: 0;
+}
+
+.logo_container{
+    display: flex;
+    width: 358px;
+    margin: 0 auto;
+    gap: 17px;
+}
+
+.logo{
+    width: 108px;
+    height: 46px;
+    border: 2px solid rgb(203,203,203);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
